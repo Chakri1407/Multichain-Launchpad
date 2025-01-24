@@ -1,0 +1,13 @@
+{
+  "name": "multichain-launchpad",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "ethereum": "yarn workspace @multichain-launchpad/ethereum",
+    "solana": "yarn workspace @multichain-launchpad/solana",
+    "frontend": "yarn workspace @multichain-launchpad/frontend",
+    "backend": "yarn workspace @multichain-launchpad/backend"
+  }
+}
