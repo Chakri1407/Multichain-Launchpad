@@ -47,6 +47,14 @@ anchor test
 solana program deploy target/deploy/launchpad.so
 ```
 
+## 📂 Project Structure
+📦 multichain-launchpad
+├── packages/
+│   ├── ethereum/          # Ethereum smart contracts
+│   ├── solana/           # Solana programs
+│   ├── frontend/         # Next.js web app
+│   └── backend/          # Express.js server
+
 ## 📌 Additional Notes
 - No centralized database; all data is stored on-chain and indexed using **The Graph**.
 - Stateless backend fetching blockchain data dynamically.
@@ -56,5 +64,6 @@ solana program deploy target/deploy/launchpad.so
 Have ideas or contributions? Feel free to reach out! 🚀
 
 ---
+```
 
 
