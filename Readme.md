@@ -32,16 +32,6 @@ The **Multichain Launchpad** facilitates fundraising across **Ethereum and Solan
 | **Event Monitoring** | Alchemy Webhooks |
 | **Interoperability** | LayerZero, Wormhole |
 
-## 🔄 Development Phases & Timeline
-| **Phase** | **Tasks** | **Estimated Time** |
-|----------|---------|----------------|
-| **1️⃣ Setup** | Install dependencies, configure WSL, Hardhat, Anchor | **1-2 days** |
-| **2️⃣ Smart Contracts** | Develop Ethereum (Solidity) & Solana (Rust) contracts, integrate LayerZero & Wormhole | **7-10 days** |
-| **3️⃣ Backend** | MetaMask login, Alchemy Webhooks, The Graph indexing | **5-7 days** |
-| **4️⃣ Frontend** | UI with React + Next.js, wallet connection, styling | **5-7 days** |
-| **5️⃣ Deployment & Testing** | Deploy contracts, run unit & integration tests, automate scripts | **5-7 days** |
-| **🕒 Total Time** | Complete development cycle | **~3-4 weeks** |
-
 ## 📜 Deployment & Testing
 ### **Ethereum (Hardhat)**
 ```sh
@@ -67,5 +57,4 @@ Have ideas or contributions? Feel free to reach out! 🚀
 
 ---
 
-This README provides a clear roadmap, features, and tech stack. Would you like any modifications? 😊
 
